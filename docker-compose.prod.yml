@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    image: ece651foodie.azurecr.io/ece651foodie/ece651_backend:prod
+    env_file:
+      - prod.env
+  frontend:
+    image: ece651foodie.azurecr.io/ece651foodie/ece651_frontend:prod
+    env_file:
+      - prod.env
+    ports:
+      - 80:80
+      - 2222:2222

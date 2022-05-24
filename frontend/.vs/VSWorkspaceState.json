@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\client",
+    "\\src\\containers",
+    "\\src\\containers\\myCart",
+    "\\src\\containers\\myCart\\pages",
+    "\\src\\containers\\myCart\\store\\reducer"
+  ],
+  "SelectedNode": "\\src\\containers\\myCart\\index.js",
+  "PreviewInSolutionExplorer": false
+}

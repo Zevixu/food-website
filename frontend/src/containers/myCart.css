@@ -1,0 +1,142 @@
+.Cart{
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  font-family: Arial;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 10px 2px #eeeeee;
+}
+.itemlist{
+
+}
+.item_content{
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 2px #eeeeee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+}
+.item_content_check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.item_content_check img{
+  width: 15px;
+  height: 15px;
+}
+.item_pic{
+  width: 80px;
+  height: 80px;
+  min-height: 80px;
+  min-width: 80px;
+  border: 1px #eee solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.item_pic img{
+  width: 100%;
+}
+.item_detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
+  margin-left: 15px;
+}
+.item_title{
+  font-size: 16px;
+  color: #333;
+}
+.item_description{
+  font-size: 14px;
+  color: #666;
+}
+.item_action{
+  display: flex;
+  justify-content: space-between;
+}
+.item_price{
+  font-size: 16px;
+  color: orangered;
+}
+.item_operation{
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.numberChangeButton{
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  line-height: 20px;
+  text-align: center;
+}
+.item_numbers{
+  width: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.removeButton{
+  width: 55px;
+  height:20px;
+  background-color: #eee;
+  line-height: 20px;
+  
+}
+
+.CartBelow{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 1px 5px 5px #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px 0 10px;
+  box-sizing: border-box;
+}
+.belowAction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkAllButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.checkAllButton img{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.belowTotal{
+  color: orangered;
+}
+.checkOutButton{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: #fff;
+  font-size: 18px;
+}
+
